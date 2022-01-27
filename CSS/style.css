@@ -1,9 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
 
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100&display=swap');
+
+html, body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:lighter;
+	color:#999999;
+}
+
+h1 {
+	font-size:36px;
+	text-transform:uppercase;
+	font-family: 'Work Sans', sans-serif;
+	margin:0 20px;
+}
+
+p {
+	margin:0 20px;
+}
 
 .navigation {
-	background-color:#BBBBBB;
+	border-bottom:1px solid #999999;
 }
 
 .inline-block {
@@ -12,45 +30,51 @@
 }
 
 .logo {
-	width:23%;
-	padding:1%;
+	width:15%;
 	text-align:center;
-	background-color:#7a7476;
+}
+
+.logo img {
+	height:50px;
+	float:left;
 }
 
 nav {
-	width:72%;
-	padding:1%;
+	width:84%;
 }
 
 ul {
-	width:50%;
-	margin-left: auto;
-	background-color:#6699FF;
-	padding:0;
+	float:right;
 }
 
 li {
 	display:inline-block;
-	padding:20px;
+	padding:10px 20px;
 	margin:2px;
-	background-color:#66CCFF;
+	text-transform:uppercase;
 }
 
 .heroImg {
 	height:600px;
-	padding:25%;
-	background-color:#CCCCCC;
+	margin:0;
+	overflow:hidden;
+}
+
+
+
+.heroImg img {
+	float:right;
+	margin:0;
+	width:33%;
 }
 
 .content {
-	width: 500px;
-	margin: 0 auto;
-	background-color:#999999;
+	width:500px;
+	margin: 100px auto;
 }
 
 footer {
-	background-color: #373738;
+	border-top:1px solid #999999;
 }
 
 footer ul {
@@ -60,4 +84,15 @@ footer ul {
 
 footer ul li {
 	padding:0 auto;
+}
+
+footer button {
+	font-family: 'Work Sans', sans-serif;
+	font-size:21px;
+	margin:20px;
+	padding:10px 20px;
+	float:right;
+	color:#999999;
+	border:1px solid #999999;
+	border-radius:20px;
 }
